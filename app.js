@@ -7,10 +7,10 @@ console.log(arithmeticMean);
 
 const product = {
   productName: "iphone",
-  memory: "128GB",
+  memory: 128,
   isAvailableAt: ["tbilisi", "kutaisi", "gori", "batumi"],
 };
-const message = `${product.productName} with ${product.memory} memory is available at ${product.isAvailableAt[0]}`;
+const message = `${product.productName} with ${product.memory}GB memory is available at ${product.isAvailableAt[0]}`;
 console.log(message);
 
 const books = [
